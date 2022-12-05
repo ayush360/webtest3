@@ -2,15 +2,31 @@
     margin: 0;
     padding: 0;
 }
-
+button{
+    font-family: cursive;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
 
 /* Navbar */
 nav{
-    background-color: rgb(145, 145, 235);
+    background-color: white;
     padding: 3rem;
+    display: flex;
+    text-align: center;
+    margin-bottom: 0;
 }
 nav div{
-    display: inline-block;
+    display: flex;
+}
+.logo{
+    margin-left: 1rem ;
+    margin-right: 5rem;
+}
+.icon{
+    margin-left: 5rem;
+    margin-right: 1rem;
 }
 .logo img{
     display: inline-block;
@@ -19,8 +35,6 @@ nav div{
     margin-right: 0.2rem;
 }
 ul{
-    position: absolute;
-    right: 10px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -31,41 +45,187 @@ li {
 }
 li a{
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 1rem;
-    padding: 1rem;
-    color: white;
+    padding: 1rem; 
+    color: black;
 }
 li a:hover{
-    color: gray;
+    color: orange;
 }
 span{
-    color: white;
+    color: black;
+    font-size: 2rem;
+}
+.icon button{
+    margin: 0.1rem;
+    cursor: pointer;
+}
+.icon button:hover{
+    background-color: orange;
+}
+.icon img{
+    height: 4vh;
+    width: 3vw;
+}
+
+/* first section */
+#first-section{
+    color: black;
+    margin-top: 0;
+    background-image: url(banner-bg.webp);
+}
+#first-section h1{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
     font-size: 3rem;
+}
+#first-section p{
+    line-height: 2;
+}
+#first-section div{
+    text-align: center;
+    margin: 2.5rem;
+    font-size: 1.2rem;
+}
+#first-section .org{
+    color: orange;
+    font-size: 3rem;
+}
+#first-section button{
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    border: 1px solid;
+    background: none;
+}
+#first-section button:hover{
+    background-color: orange;
+    color: white;
+    border: 1ppx solid black;
 }
 
 
+/* second section */
+#second-section{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    text-align: center;
+}
+#second-section h1{
+    font-size: 3rem;
+}
+#second-section span{
+    font-size: 3rem;
+    border-radius: 70%;
+    background-color: orange;
+}
+#second-section div{
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+}
+#second-section div img{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 50%;
+}
+#second-section h3{
+    line-height: 2;
+    font-size: 2rem;
+}
+#second-section .hell{
+    font-size:1.4rem;
+    padding-bottom: 2rem;
+}
+#second-section div:hover{
+    border: 2px solid black;
+}
+
+/* third-section */
+#third-section{
+    text-align: center;
+}
+#third-section h1{
+    font-size: 3rem;
+}
+#third-section span{
+    font-size: 3rem;
+    border-radius: 70%;
+    background-color: orange;
+}
+hr{
+    
+}
+.box div{
+    padding-left: 10px;
+}
+#third-section{
+    line-height: 1.5;
+}
+#third-section button{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+#third-section button:hover{
+    background-color: orange;
+    color: white;
+    border: 2px solid black;
+}
+#container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.box{
+    border: 2px solid;
+    width: 28vw;
+    margin: 1rem;
+}
+.box img{
+    height: 30vh;
+    width: 28vw;
+}
 
 /* footer */
 footer{
-    background-color: black;
-    color: white;
-    
-}
-footer .logo{
-    margin-bottom: 5rem;
+    background-color: white;
+    color: black;
+    margin-top: 2rem;
 }
 .foote{
-    text-align: center;
     display: flex;
+    justify-content: center;
 }
 footer h2{
     font-size: 1rem;
 }
 .foot{
-    width: 24vw;
+    width: 30vw;
     margin-bottom: 2.5rem;
+    text-align: left;
+}
+.foot h2{
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+}
+.foot p{
+    font-size: 1.2rem;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    padding-left: 0.3rem;
 }
 .foot img{
     height: 3vh;
